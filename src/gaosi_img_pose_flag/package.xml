@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gaosi_img_pose_flag</name>
+  <version>0.0.1</version>
+  <description>
+    A package to publish and subscribe to images and GPS data using ROS.
+  </description>
+
+  <!-- Maintainer of the package -->
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+
+  <!-- License of the package -->
+  <license>MIT</license>
+
+  <!-- Build tool required to build this package -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies of the package during build and runtime -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>eigen</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>image_transport</build_depend>
+  <!--自定义消息 -->
+  <build_depend>message_generation</build_depend>
+  <build_depend>message_runtime</build_depend>
+  <build_depend>std_msgs</build_depend>
+  
+  
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>eigen</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>message_filters</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <!--自定义消息 -->
+  <exec_depend>message_generation</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- Declare additional dependencies required for building this package -->
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
+  <build_export_depend>eigen</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>message_filters</build_export_depend>
+  <build_export_depend>image_transport</build_export_depend>
+    <!--自定义消息 -->
+  <build_export_depend>message_generation</build_export_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+
+  <!-- Export information, can be used by other packages -->
+  <export>
+    <!-- Export any specific information here -->
+  </export>
+</package>

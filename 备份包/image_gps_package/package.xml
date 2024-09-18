@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>image_gps_package</name>
+  <version>0.0.1</version>
+  <description>
+    A package to publish and subscribe to images and GPS data using ROS.
+  </description>
+
+  <!-- Maintainer of the package -->
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+
+  <!-- License of the package -->
+  <license>MIT</license>
+
+  <!-- Build tool required to build this package -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies of the package during build and runtime -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+
+  <!-- Declare additional dependencies required for building this package -->
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
+
+  <!-- Export information, can be used by other packages -->
+  <export>
+    <!-- Export any specific information here -->
+  </export>
+</package>
